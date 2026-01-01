@@ -1,0 +1,17 @@
+[project]
+name = "todo-app"
+version = "0.1.0"
+description = "In-Memory CLI Todo Application for The Evolution of Todo project"
+authors = [
+    {name = "Student", email = "student@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+todo = "src.todo.main:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
