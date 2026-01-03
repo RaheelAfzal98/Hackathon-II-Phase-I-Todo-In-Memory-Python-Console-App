@@ -10,7 +10,7 @@ requires-python = ">=3.13"
 dependencies = []
 
 [project.scripts]
-todo = "src.todo.main:main"
+todo = "todo.main:main"
 
 [build-system]
 requires = ["setuptools>=61.0"]
